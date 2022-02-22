@@ -1,0 +1,29 @@
+{
+    "soccer": {
+        "name": "Soccer",
+        "subscribers": 800000,
+        "description": "The football subreddit. News, results and discussion",
+        "posts": [
+            {
+                "title": "Marten de room to make pizza for more than 1,000",
+                "author": "joeextreme"
+            },
+
+            {
+                "title": "Stephan has retired",
+                "author": "odd person"
+            },
+
+            {
+                "title": "Offical: Dani Parego",
+                "author": "joeextreme"
+            },
+
+            {
+                "title": "My five years old chicken",
+                "author": "timmythetiger",
+                "img": "https://www.goodoletom.com/wp-content/uploads/goodoletom/assets/images/IMG_3488.JPG"
+            }
+        ]
+    }
+}

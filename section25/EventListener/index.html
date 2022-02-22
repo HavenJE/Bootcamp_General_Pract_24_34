@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="app.css"> -->
+    <title>Inline Events class</title>
+</head>
+
+<body>
+   <h1>Events</h1>
+    <!-- The button below with its alert is not recommanded!  -->
+   <button onclick="alert('You clicked me!!'); alert('Please dont touch me again')">Click Me!</button>
+
+   <!-- This time, we using JS to create the onclick function -->
+   <button id="v2">Click me! (The 2ed version)</button>
+
+   <!-- AddEventListener topic - takes 2 arguments; an action e.g. click etc, and a callback function for the action -->
+   <button id="v3">Click me! (The 3ed version)</button>
+
+   <!-- Adding two addEventListeners -->
+    <button id="yas">Yall & Shout</button>
+    
+   <script src="app.js"></script>
+</body>
+
+</html>

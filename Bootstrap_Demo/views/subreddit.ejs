@@ -1,0 +1,36 @@
+<%- include('partials/head') %>
+
+    <body>
+
+        <!-- This include method is for the navbar -->
+        <%- include('partials/navbar') %>
+
+            <div class="container">
+
+
+                <h1> Browsing The <%= name %> subreddit </h1>
+                <h2>
+                    <%= description %>
+                </h2>
+
+                <p>
+                    <%= subscribers %> Total Subscribers
+                </p>
+
+                <hr>
+
+                <% for (let post of posts) { %>
+                    <article>
+                        <p>
+                            <%= post.title %> - <b> By the author: <%= post.author %> </b>
+                        </p>
+                        <% if (post.img) { %>
+                            <img src=" <%= post.img %> " alt="">
+                            <% } %>
+                    </article>
+                    <% } %>
+            </div>
+
+            <%- include('partials/footer') %>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
